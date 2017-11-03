@@ -21,5 +21,5 @@
 
 ## Documentation
 Automatically generate documentation from the feature specifications!
-- Run `npm run features-pdf` to generate a PDF
-- Run `npm run features-html` to generate HTML
+- Run `npm run features-pdf` to generate a PDF. Results will be stored in `dist/pdf`.
+- Run `npm run features-html` to generate HTML. Results will be stored in `dist/html`.
