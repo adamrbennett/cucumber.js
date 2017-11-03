@@ -9,7 +9,7 @@
 - Application code lives in the `app` directory.
 - Feature Specifications are defined in the `features` directory.
   - A feature specification describes the feature and its associated scenarios with outcomes.
-  - Feature specifications use the Gherkin syntax to describe test cases in a, "business readable, domain-specific language." For more information, [see here]([https://github.com/cucumber/cucumber/wiki/Gherkin).
+  - Feature specifications use the Gherkin syntax to describe test cases in a, "business readable, domain-specific language." For more information, consult the [Wiki]([https://github.com/cucumber/cucumber/wiki/Gherkin).
 - Step Definitions are defined in the `features/step_definitions` directory.
   - Step Definitions are automatically generated from the feature specifications, and are then implemented to verify the implementation of the feature's specification is correct.
 
