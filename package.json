@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "features-pdf": "./node_modules/featurebook/bin/featurebook.js pdf features",
+    "features-html": "./node_modules/featurebook/bin/featurebook.js html features",
+    "acceptance-test": "./node_modules/cucumber/bin/cucumber.js"
   },
   "author": "Adam Bennett",
   "license": "ISC",
-  "devDependencies": {
-    "cucumber": "^2.0.0-rc.6"
+  "devDependencies": {},
+  "dependencies": {
+    "cucumber": "^3.1.0",
+    "featurebook": "^0.0.32"
   }
 }
